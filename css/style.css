@@ -1,0 +1,231 @@
+.bottom-container{
+    background-image: linear-gradient(#4a3e80, #02665a);
+    padding: 10px 0 10px;
+}
+
+.btn{
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #1350D6);
+    background-image: -moz-linear-gradient(top, #11CDD4, #1350D6);
+    background-image: -ms-linear-gradient(top, #11CDD4, #1350D6);
+    background-image: -o-linear-gradient(top, #11CDD4, #1350D6);
+    background-image: -webkit-gradient(to bottom, #11CDD4, #1350D6);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #337FED 0;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.cloud1{
+    position: relative;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+.cloud2{
+    position:absolute;
+    margin-left: -100px;
+}
+
+.c-m{
+    animation: glowing 5s infinite;
+}
+
+@keyframes glowing {
+    50% {
+        color: #66bfbf;
+    }
+}
+
+.contact-me{
+    background-image: linear-gradient(#3f2b96, #4a3e80);
+    margin: 100px auto 0px auto;
+    position: relative;
+    width: 100%;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+    color: rgb(203, 203, 206);
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.in-touch{
+    animation: glow 5s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes glow {
+    50% {
+        color: #66bfbf;
+    }
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.middle-container{
+    background-image: linear-gradient(#85d8ce,#3f2b96);
+    margin: 0px; 
+    position: relative;
+}
+
+.my{
+    font-size: 20px;
+    color: #000000;
+}
+
+.myself{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profile_pic{
+    margin-top: 100px;
+    height: 200px;
+}
+
+.py{
+    font-size: 20px;
+    color: #000000;
+}
+
+.python{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.sky-dive{
+    position:absolute;
+    margin-left: -200px;
+    animation: move 60s infinite;
+}
+
+@keyframes move{
+    50% {
+        margin: 700px;
+    }
+}
+
+.top_container{
+    background-image: linear-gradient(#085078, #85d8ce);
+    position: relative;
+    width: 100%;
+}
+
+.web{
+    font-size: 20px;
+    color: #000000;
+}
+
+.web-dev{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+a{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EAF6F6;
+}
+
+body {
+    background-image: linear-gradient(#3f2b96, #3f2b96);
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    animation: mymove 5s infinite;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 30px rgb(20, 20, 160);}
+}
+
+h2 {
+    animation: textdecor 5s infinite;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+@keyframes textdecor {
+    50% {
+        text-decoration-color: rgb(20, 20, 160);
+    }
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    background-image: linear-gradient(#3f2b96, #4a3e80);
+    border: dotted #614b8a 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
