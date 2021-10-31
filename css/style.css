@@ -151,7 +151,7 @@
 
 @keyframes move{
     50% {
-        margin: 600px;
+        margin: 450px;
     }
 }
 
@@ -184,7 +184,7 @@ a:hover {
 
 body {
     background-image: linear-gradient(#3f2b96, #3f2b96);
-    margin: 0 auto;
+    margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
 }
@@ -228,4 +228,5 @@ hr {
 
 p{
     line-height: 2;
+    font-size: 20px;
 }
